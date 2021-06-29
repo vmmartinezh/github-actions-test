@@ -11,5 +11,5 @@ jobs:
       - name: multiline Script
         run: |
           node
-          npm -V
+          npm -version
           java -version
