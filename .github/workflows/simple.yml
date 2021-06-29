@@ -17,3 +17,8 @@ jobs:
           echo "Version Java"
           java --version
           echo "Fin comandos"
+      - name: python command
+        run: |
+          import platform
+          print(platform.processor())
+        shell: python
