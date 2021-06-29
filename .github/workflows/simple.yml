@@ -15,4 +15,5 @@ jobs:
           echo "Version NPM"
           npm -version
           echo "Version Java"
-          java -version
+          java --version
+          echo "Fin comandos"
