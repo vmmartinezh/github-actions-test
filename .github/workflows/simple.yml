@@ -10,6 +10,9 @@ jobs:
         run: echo "Hello Github Actions"
       - name: multiline Script
         run: |
-          node
+          echo "Version Node"
+          node --version
+          echo "Version NPM"
           npm -version
+          echo "Version Java"
           java -version
